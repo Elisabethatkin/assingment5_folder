@@ -1,6 +1,2 @@
 x <- c(1:99)
 y <- rnorm(n = x, mean = 0, sd = sqrt(0.001))
-
-a5df <- data.frame(x,y)
-write.csv(a5df,"assingment5_file.csv", row.names = FALSE)
-a5df
